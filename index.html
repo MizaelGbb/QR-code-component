@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    body{
+      margin: 0;
+    }
+    .conteiner{
+      display: flex;
+      height: 100vh;
+      background-color: hsl(212, 45%, 89%); 
+      align-items:center;
+      justify-content: center;
+    }
+    .item{
+      background-color: hsl(0, 0%, 100%);
+      width: 360px;
+      border-radius: 20px;
+      text-align: center;
+      padding:20px;
+      font-family: Outfit;
+      font-size:15px;
+    }
+    img{
+      border-radius: 10px;
+      width: 360px;
+    }
+    h1{
+      color: hsl(218, 44%, 22%);
+    }
+    p{
+      color:hsl(220, 15%, 55%);
+      font-size: 20px;
+      
+    }
+    @media (max-width:375px){
+     .item{
+      padding: 12px;
+      width: 200px;
+      border-radius: 15px;
+      font-size:8px ;
+      }
+      img{
+      border-radius: 8px;
+      width: 200px;
+      }
+      p{
+      font-size: 12px;
+      
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="conteiner">
+    <div class="item">
+      <img src="images/image-qr-code.png" alt=""/>
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+
+    </div>
+  </div>
+</body>
+</html>
